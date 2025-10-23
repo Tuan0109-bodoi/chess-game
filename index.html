@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chess Phaser</title>
+    <style>
+      body {
+        margin: 0;
+        background: #2b2b2b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      canvas {
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Đây là nơi Phaser sẽ render canvas -->
+    <div id="game"></div>
+
+    <!-- Gọi file JS chính -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
